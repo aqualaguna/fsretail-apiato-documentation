@@ -1,0 +1,37 @@
+- title: Getting Started
+  docs:
+  - home
+  - quickstart
+  - architecture-system
+  - access-dashboard
+
+- title: User Manual
+  docs:
+  - manual-intro
+  - role-permissions
+
+- title: Accounting Principle
+  docs:
+  - accounting-intro
+  - accounting-chart-of-account
+  - accounting-template
+
+- title: Themes
+  docs:
+  - theme-intro
+  - theme-folder-asset
+  - theme-builder
+  - theme-folder-structure
+  - theme-folder-layouts
+  - theme-folder-modules
+  - theme-folder-auth
+  - theme-folder-blog
+  - theme-folder-cart
+  - theme-folder-product
+  - theme-folder-transaction
+  - theme-folder-partials
+
+- title: API
+  docs:
+  - api-references
+  

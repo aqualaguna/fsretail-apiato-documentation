@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chart of Account</title>
+    <meta name="description" content="Chart Of Account">
+
+
+    <link rel="stylesheet" href="/fsretail-apiato/css/main.css">
+    <link rel="stylesheet" href="/fsretail-apiato/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="/fsretail-apiato/favicon.ico?1">
+    <!-- Begin Jekyll SEO tag v2.2.2 -->
+<title>Chart of Account | Jekyll Doc Theme</title>
+<meta property="og:title" content="Chart of Account" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Chart Of Account" />
+<meta property="og:description" content="Chart Of Account" />
+<link rel="canonical" href="http://localhost:4000/fsretail-apiato/docs/accounting-chart-of-account/" />
+<meta property="og:url" content="http://localhost:4000/fsretail-apiato/docs/accounting-chart-of-account/" />
+<meta property="og:site_name" content="Jekyll Doc Theme" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-20T06:30:20+02:00" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebPage","headline":"Chart of Account","datePublished":"2018-08-20T06:30:20+02:00","dateModified":"2018-08-20T06:30:20+02:00","description":"Chart Of Account","url":"http://localhost:4000/fsretail-apiato/docs/accounting-chart-of-account/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="canonical" href="http://localhost:4000/fsretail-apiato/docs/accounting-chart-of-account/">
+    <link rel="alternate" type="application/rss+xml" title="Jekyll Doc Theme" href="http://localhost:4000/fsretail-apiato/feed.xml" />
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="/fsretail-apiato/">
+                <span><img src="/fsretail-apiato/img/logonav.png"></span> Jekyll Doc Theme
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li  class="active" ><a href="/fsretail-apiato/docs/home/">Docs</a></li>
+                <li ><a href="/fsretail-apiato/blog/2017/05/03/jekyll-doc-theme/">Blog</a></li>
+            </ul>
+            <div class="navbar-right">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group has-feedback">
+                        <input id="search-box" type="text" class="form-control" placeholder="Search...">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li><a href="https://github.com/aqualaguna/fsretail-apiato"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+          Getting Started
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/home/">Welcome</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato"></a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/architecture-system/">Architecture System</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/access-dashboard/">Dashboard</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+          User Manual
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/manual-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/role-permissions/">Role and Permissions</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+          Accounting Principle
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/accounting-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item active" href="/fsretail-apiato/docs/accounting-chart-of-account/">Chart of Account</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/accounting-template/">Journal Template</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+          Themes
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-asset/">Asset Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-builder/">Theme Builder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-structure/">Folder Structure</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-layouts/">Layouts Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-modules/">Modules Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-auth/">Modules Auth Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-blog/">Modules Blog Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-cart/">Modules Cart Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-product/">Modules Product Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-transaction/">Modules Transaction Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-partials/">Partials Folder</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+          API
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/api-references/">Api References</a>
+        
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+        <div class="col-md-8">
+            <h1>Chart of Account</h1>
+            <div id="markdown-content-container"> <h3 id="chart-of-account">Chart Of Account</h3>
+
+<p>There are 2 special account namely, <code class="highlighter-rouge">Cash</code> and <code class="highlighter-rouge">Bank</code>. this 2 account can have a children. other account must have not any children. Example account for this 2 special account is in last 2 row of the table.</p>
+
+<p>List Of Account Available:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Account Name</th>
+      <th>Type</th>
+      <th>Class</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sales</td>
+      <td>Revenue</td>
+      <td>Revenue</td>
+      <td>Income from any normal business activity</td>
+    </tr>
+    <tr>
+      <td>Other Revenue</td>
+      <td>Revenue</td>
+      <td>Revenue</td>
+      <td>Any other income that does not relate to normal business activities and is not recurring</td>
+    </tr>
+    <tr>
+      <td>Interest Income</td>
+      <td>Revenue</td>
+      <td>Revenue</td>
+      <td>Interest income</td>
+    </tr>
+    <tr>
+      <td>Cost of Goods Sold</td>
+      <td>Direct Costs</td>
+      <td>Expenses</td>
+      <td>Cost of goods sold by the business</td>
+    </tr>
+    <tr>
+      <td>Advertising</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred for advertising while trying to increase sales</td>
+    </tr>
+    <tr>
+      <td>Bank Fees</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Fees charged by your bank for transactions regarding your bank account(s).</td>
+    </tr>
+    <tr>
+      <td>Cleaning</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred for cleaning  business property.</td>
+    </tr>
+    <tr>
+      <td>Consulting &amp; Accounting</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses related to paying consultants</td>
+    </tr>
+    <tr>
+      <td>Depreciation</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>The amount of the asset’s cost (based on the useful life) that was consumed during the period</td>
+    </tr>
+    <tr>
+      <td>Entertainment</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses paid by company for the business but are not deductable for income tax purposes.</td>
+    </tr>
+    <tr>
+      <td>Freight &amp; Courier</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred on courier &amp; freight costs</td>
+    </tr>
+    <tr>
+      <td>General Expenses</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>General expenses related to the running of the business.</td>
+    </tr>
+    <tr>
+      <td>Insurance</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred for insuring the business’ assets</td>
+    </tr>
+    <tr>
+      <td>Interest Expense</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Any interest expenses paid to your tax authority, business bank accounts or credit card accounts.</td>
+    </tr>
+    <tr>
+      <td>Legal expenses</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred on any legal matters</td>
+    </tr>
+    <tr>
+      <td>Light, Power, Heating</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred for lighting, powering or heating the premises</td>
+    </tr>
+    <tr>
+      <td>Motor Vehicle Expenses</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred on the running of company motor vehicles</td>
+    </tr>
+    <tr>
+      <td>Office Expenses</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>General expenses related to the running of the business office.</td>
+    </tr>
+    <tr>
+      <td>Printing &amp; Stationery</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred by the entity as a result of printing and stationery</td>
+    </tr>
+    <tr>
+      <td>Rent</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>The payment to lease a building or area.</td>
+    </tr>
+    <tr>
+      <td>Repairs and Maintenance</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred on a damaged or run down asset that will bring the asset back to its original condition.</td>
+    </tr>
+    <tr>
+      <td>Wages and Salaries</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Payment to employees in exchange for their resources</td>
+    </tr>
+    <tr>
+      <td>Superannuation</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Superannuation contributions</td>
+    </tr>
+    <tr>
+      <td>Subscriptions</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>E.g. Magazines, professional bodies</td>
+    </tr>
+    <tr>
+      <td>Telephone &amp; Internet</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenditure incurred from any business-related phone calls, phone lines, or internet connections</td>
+    </tr>
+    <tr>
+      <td>Travel - National</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred from domestic travel which has a business purpose</td>
+    </tr>
+    <tr>
+      <td>Travel - International</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>Expenses incurred from international travel which has a business purpose</td>
+    </tr>
+    <tr>
+      <td>Bank Revaluations</td>
+      <td>Expenses</td>
+      <td>Expenses</td>
+      <td>Bank account revaluations due for foreign exchange rate changes</td>
+    </tr>
+    <tr>
+      <td>Unrealised Currency Gains</td>
+      <td>Expenses</td>
+      <td>Expenses</td>
+      <td>Unrealised currency gains on outstanding items</td>
+    </tr>
+    <tr>
+      <td>Realised Currency Gains</td>
+      <td>Expenses</td>
+      <td>Expenses</td>
+      <td>Gains or losses made due to currency exchange rate changes</td>
+    </tr>
+    <tr>
+      <td>Income Tax Expense</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>A percentage of total earnings paid to the government.</td>
+    </tr>
+    <tr>
+      <td>Accounts Receivable</td>
+      <td>Non-current Assets</td>
+      <td>Assets</td>
+      <td>Outstanding invoices the company has issued out to the client but has not yet received in cash at balance date.</td>
+    </tr>
+    <tr>
+      <td>Prepayments</td>
+      <td>Current Asset</td>
+      <td>Assets</td>
+      <td>An expenditure that has been paid for in advance.</td>
+    </tr>
+    <tr>
+      <td>Inventory</td>
+      <td>Inventory</td>
+      <td>Assets</td>
+      <td>Value of tracked items for resale.</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>Outstanding invoices the company has received from suppliers but has not yet paid at balance date</td>
+    </tr>
+    <tr>
+      <td>Unpaid Expense Claims</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>Expense claims typically made by employees/shareholder employees still outstanding.</td>
+    </tr>
+    <tr>
+      <td>Wages Payable</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>FSretail automatically updates this account for payroll entries created using Payroll and will store the payroll amount to be paid to the employee for the pay run. This account enables you to maintain separate accounts for employee Wages Payable amounts and Accounts Payable amounts</td>
+    </tr>
+    <tr>
+      <td>Sales Tax</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>The balance in this account represents Sales Tax owing to or from your tax authority. At the end of the tax period, it is this account that should be used to code against either the ‘refunds from’ or ‘payments to’ your tax authority that will appear on the bank statement. FSretail has been designed to use only one sales tax account to track sales taxes on income and expenses, so there is no need to add any new sales tax accounts to FSretail.</td>
+    </tr>
+    <tr>
+      <td>Employee Tax Payable</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>The amount of tax that has been deducted from wages or salaries paid to employes and is due to be paid</td>
+    </tr>
+    <tr>
+      <td>Income Tax Payable</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>The amount of income tax that is due to be paid, also resident withholding tax paid on interest received.</td>
+    </tr>
+    <tr>
+      <td>Historical Adjustment</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>For accountant adjustments</td>
+    </tr>
+    <tr>
+      <td>Suspense</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>An entry that allows an unknown transaction to be entered, so the accounts can still be worked on in balance and the entry can be dealt with later.</td>
+    </tr>
+    <tr>
+      <td>Rounding</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>An adjustment entry to allow for rounding</td>
+    </tr>
+    <tr>
+      <td>Owner A Drawings</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>Withdrawals by the owners</td>
+    </tr>
+    <tr>
+      <td>Owner A Funds Introduced</td>
+      <td>Equity</td>
+      <td>Equity</td>
+      <td>Funds contributed by the owner</td>
+    </tr>
+    <tr>
+      <td>Loan</td>
+      <td>Non-current Liability</td>
+      <td>Liability</td>
+      <td>Money that has been borrowed from a creditor</td>
+    </tr>
+    <tr>
+      <td>Retained Earnings</td>
+      <td>Equity</td>
+      <td>Equity</td>
+      <td>Do not Use</td>
+    </tr>
+    <tr>
+      <td>Owner A Share Capital</td>
+      <td>Equity</td>
+      <td>Equity</td>
+      <td>The value of shares purchased by the shareholders</td>
+    </tr>
+    <tr>
+      <td>Income Summary</td>
+      <td>Transational Account</td>
+      <td>Liability</td>
+      <td>an Account for Closing a Journal Entry</td>
+    </tr>
+    <tr>
+      <td>Cash</td>
+      <td>Current Asset</td>
+      <td>Assets</td>
+      <td>Checking account balance, currency, coins, checks received from customer but not yet deposited.</td>
+    </tr>
+    <tr>
+      <td>Supplies</td>
+      <td>Current Asset</td>
+      <td>Assets</td>
+      <td>Supplies like an ink, book, pen, etc.</td>
+    </tr>
+    <tr>
+      <td>Lands</td>
+      <td>Fixed Asset</td>
+      <td>Assets</td>
+      <td>A Land owned by Company</td>
+    </tr>
+    <tr>
+      <td>Building</td>
+      <td>Fixed Asset</td>
+      <td>Assets</td>
+      <td>A Building owned by Company</td>
+    </tr>
+    <tr>
+      <td>Equiqment</td>
+      <td>Fixed Asset</td>
+      <td>Assets</td>
+      <td>A Machine or long lasting tool used to generate income. eg. car, tractor, x-ray machine etc.</td>
+    </tr>
+    <tr>
+      <td>Accumulated Deprecation - Equiqment</td>
+      <td>Fixed Asset</td>
+      <td>Assets</td>
+      <td>Amount of equiqment’s cost that has been alocated since the equiqment acquired.</td>
+    </tr>
+    <tr>
+      <td>Accumulated Deprecation - Building</td>
+      <td>Fixed Asset</td>
+      <td>Assets</td>
+      <td>Amount of equiqment’s cost that has been alocated since the equiqment acquired.</td>
+    </tr>
+    <tr>
+      <td>Bank</td>
+      <td>Current Asset</td>
+      <td>Assets</td>
+      <td>Bank Account for transfer</td>
+    </tr>
+    <tr>
+      <td>Sales Return</td>
+      <td>Expense</td>
+      <td>Expenses</td>
+      <td>return goods for sales (Contra Account)</td>
+    </tr>
+    <tr>
+      <td>Employee Extra Payment</td>
+      <td>Overhead</td>
+      <td>Expenses</td>
+      <td>Over hour work</td>
+    </tr>
+    <tr>
+      <td>Purchase Discount</td>
+      <td>Contra Account</td>
+      <td>Expenses</td>
+      <td>Discount given by supplier for buying products.</td>
+    </tr>
+    <tr>
+      <td>Unearned Revenue</td>
+      <td>Current Liability</td>
+      <td>Liability</td>
+      <td>Prepayment from customer for service or goods that’s have not given to customer</td>
+    </tr>
+    <tr>
+      <td>Sales Discount</td>
+      <td>Contra Account</td>
+      <td>Revenue</td>
+      <td>Discount given to customer for buying bulk or promo buy.</td>
+    </tr>
+    <tr>
+      <td>Company Cash</td>
+      <td>Current Assets</td>
+      <td>Assets</td>
+      <td>Cash for company to receive fund.</td>
+    </tr>
+    <tr>
+      <td>Company Bank</td>
+      <td>Current Assets</td>
+      <td>Assets</td>
+      <td>Bank Account to receive fund.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+            <hr>
+            
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <ul class="pager">
+      
+        
+        
+        <li class="previous">
+          <a href="/fsretail-apiato/docs/accounting-intro/">
+            <span aria-hidden="true">&larr;</span> Previous
+          </a>
+        </li>
+      
+
+      
+        
+        
+        <li class="next">
+          <a href="/fsretail-apiato/docs/accounting-template/">
+            Next <span aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      
+    </div>
+    <div class="clear"></div>
+    
+
+        </div>
+
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+    <div class="container">
+
+        <p class="text-center">
+            Jekyll Doc Theme 2018 |
+            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
+        </p>
+        <!-- <p class="text-muted">Place sticky footer content here.</p> -->
+    </div>
+</footer>
+
+    <script>
+  var baseurl = '/fsretail-apiato'
+</script>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/fsretail-apiato/js/bootstrap.min.js "></script>
+<script src="/fsretail-apiato/js/typeahead.bundle.min.js "></script>
+
+<script src="/fsretail-apiato/js/main.js "></script>
+
+</body>
+
+</html>

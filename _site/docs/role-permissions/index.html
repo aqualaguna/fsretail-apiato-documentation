@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Role and Permissions</title>
+    <meta name="description" content="Overview">
+
+
+    <link rel="stylesheet" href="/fsretail-apiato/css/main.css">
+    <link rel="stylesheet" href="/fsretail-apiato/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="/fsretail-apiato/favicon.ico?1">
+    <!-- Begin Jekyll SEO tag v2.2.2 -->
+<title>Role and Permissions | Jekyll Doc Theme</title>
+<meta property="og:title" content="Role and Permissions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Overview" />
+<meta property="og:description" content="Overview" />
+<link rel="canonical" href="http://localhost:4000/fsretail-apiato/docs/role-permissions/" />
+<meta property="og:url" content="http://localhost:4000/fsretail-apiato/docs/role-permissions/" />
+<meta property="og:site_name" content="Jekyll Doc Theme" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-20T06:30:20+02:00" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebPage","headline":"Role and Permissions","datePublished":"2018-08-20T06:30:20+02:00","dateModified":"2018-08-20T06:30:20+02:00","description":"Overview","url":"http://localhost:4000/fsretail-apiato/docs/role-permissions/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="canonical" href="http://localhost:4000/fsretail-apiato/docs/role-permissions/">
+    <link rel="alternate" type="application/rss+xml" title="Jekyll Doc Theme" href="http://localhost:4000/fsretail-apiato/feed.xml" />
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="/fsretail-apiato/">
+                <span><img src="/fsretail-apiato/img/logonav.png"></span> Jekyll Doc Theme
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li  class="active" ><a href="/fsretail-apiato/docs/home/">Docs</a></li>
+                <li ><a href="/fsretail-apiato/blog/2017/05/03/jekyll-doc-theme/">Blog</a></li>
+            </ul>
+            <div class="navbar-right">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group has-feedback">
+                        <input id="search-box" type="text" class="form-control" placeholder="Search...">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li><a href="https://github.com/aqualaguna/fsretail-apiato"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="page-content">
+        <div class="wrapper">
+            <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+          Getting Started
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/home/">Welcome</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato"></a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/architecture-system/">Architecture System</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/access-dashboard/">Dashboard</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+          User Manual
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/manual-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item active" href="/fsretail-apiato/docs/role-permissions/">Role and Permissions</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+          Accounting Principle
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/accounting-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/accounting-chart-of-account/">Chart of Account</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/accounting-template/">Journal Template</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+          Themes
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-intro/">Introduction</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-asset/">Asset Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-builder/">Theme Builder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-structure/">Folder Structure</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-layouts/">Layouts Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-modules/">Modules Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-auth/">Modules Auth Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-blog/">Modules Blog Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-cart/">Modules Cart Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-product/">Modules Product Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-transaction/">Modules Transaction Folder</a>
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/theme-folder-partials/">Partials Folder</a>
+        
+      </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+          API
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <ul class="list-group">
+        
+          
+          
+          <a class="list-group-item " href="/fsretail-apiato/docs/api-references/">Api References</a>
+        
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+        <div class="col-md-8">
+            <h1>Role and Permissions</h1>
+            <div id="markdown-content-container"> <h3 id="overview">Overview</h3>
+
+<p>FSretail use role and permission system. this is to prevent unauthorized used on system. for more documentation refer to <a href="https://github.com/spatie/laravel-permission">this repository</a>.</p>
+
+<h3 id="permissions">Permissions</h3>
+
+<p>Permission is a consent given by system to user/role to perform some action in system. Fsretail system adopt Bread system from <a href="https://laravelvoyager.com/">laravel voyager</a> permission system but <strong>not entirely</strong>. the <code class="highlighter-rouge">BREAD</code> system integrated in fsretail is implemented in any accessable api model. <code class="highlighter-rouge">BREAD</code> stands for browse, read, edit, add, and delete. example permission will be explained in <a href="#role">Role section</a>.</p>
+
+<blockquote>
+  <p>Note: Permission is fixed record. it can’t be added, updated, or deleted. permission only created in seeder(inside the code).</p>
+</blockquote>
+
+<h3 id="roles-">Roles <a name="role"></a></h3>
+
+<p>Role are like a group permission given to user.To Access this module you need to login to management console. and go to this page bellow :</p>
+
+<p><img src="/fsretail-apiato/img/manual/user-role.png" alt="user role" /></p>
+
+<p>Permission needed:</p>
+
+<ol>
+  <li>manage-roles
+    <ul>
+      <li>add , edit, delete a role</li>
+      <li>assign permission to role</li>
+      <li>assign a role to user</li>
+    </ul>
+  </li>
+  <li>manage-admin-access
+    <ul>
+      <li>create admin user</li>
+    </ul>
+  </li>
+</ol>
+
+<p>There is 7 default role exist namely:</p>
+
+<ol>
+  <li>
+    <p><strong>Administrator</strong></p>
+
+    <p>Has All access and can do basically anything in system. <strong>no root access</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Customer</strong></p>
+
+    <p>customer is a user that registered via website interface. customer can buy, view transaction and update profile. this role is very limited in any access.</p>
+
+    <p>Permission:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Delete Comments</td>
+          <td>Delete Comments row.</td>
+        </tr>
+        <tr>
+          <td>Update Comments</td>
+          <td>Update Comments row.</td>
+        </tr>
+        <tr>
+          <td>Add Comments</td>
+          <td>Insert Comments row.</td>
+        </tr>
+        <tr>
+          <td>Delete Reviews</td>
+          <td>Delete Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Update Reviews</td>
+          <td>Update Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Add Reviews</td>
+          <td>Insert Reviews row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Sales</strong></p>
+
+    <p>sales is a user that manage sales. for example create sales, approve sales, create sales order etc. sales also can create item and many more for detail look table below.</p>
+
+    <p>Permission:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Access dashboard</td>
+          <td>Access the admins dashboard.</td>
+        </tr>
+        <tr>
+          <td>Browse Users</td>
+          <td>Get all Users row.</td>
+        </tr>
+        <tr>
+          <td>Browse Attachments</td>
+          <td>Get all Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Read Attachments</td>
+          <td>Read 1 (One) Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Delete Attachments</td>
+          <td>Delete Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Update Attachments</td>
+          <td>Update Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Add Attachments</td>
+          <td>Insert Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Browse Categories</td>
+          <td>Get all Categories row.</td>
+        </tr>
+        <tr>
+          <td>Read Categories</td>
+          <td>Read 1 (One) Categories row.</td>
+        </tr>
+        <tr>
+          <td>Delete Categories</td>
+          <td>Delete Categories row.</td>
+        </tr>
+        <tr>
+          <td>Update Categories</td>
+          <td>Update Categories row.</td>
+        </tr>
+        <tr>
+          <td>Add Categories</td>
+          <td>Insert Categories row.</td>
+        </tr>
+        <tr>
+          <td>Browse Customers</td>
+          <td>Get all Customers row.</td>
+        </tr>
+        <tr>
+          <td>Read Customers</td>
+          <td>Read 1 (One) Customers row.</td>
+        </tr>
+        <tr>
+          <td>Delete Customers</td>
+          <td>Delete Customers row.</td>
+        </tr>
+        <tr>
+          <td>Update Customers</td>
+          <td>Update Customers row.</td>
+        </tr>
+        <tr>
+          <td>Add Customers</td>
+          <td>Insert Customers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Items</td>
+          <td>Get all Items row.</td>
+        </tr>
+        <tr>
+          <td>Read Items</td>
+          <td>Read 1 (One) Items row.</td>
+        </tr>
+        <tr>
+          <td>Delete Items</td>
+          <td>Delete Items row.</td>
+        </tr>
+        <tr>
+          <td>Update Items</td>
+          <td>Update Items row.</td>
+        </tr>
+        <tr>
+          <td>Add Items</td>
+          <td>Insert Items row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Pictures</td>
+          <td>Get all Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Pictures</td>
+          <td>Read 1 (One) Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Delete Item Pictures</td>
+          <td>Delete Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Add Item Pictures</td>
+          <td>Insert Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Details</td>
+          <td>Get all Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Details</td>
+          <td>Read 1 (One) Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse People</td>
+          <td>Get all People row.</td>
+        </tr>
+        <tr>
+          <td>Read People</td>
+          <td>Read 1 (One) People row.</td>
+        </tr>
+        <tr>
+          <td>Delete People</td>
+          <td>Delete People row.</td>
+        </tr>
+        <tr>
+          <td>Update People</td>
+          <td>Update People row.</td>
+        </tr>
+        <tr>
+          <td>Add People</td>
+          <td>Insert People row.</td>
+        </tr>
+        <tr>
+          <td>Browse Purchases</td>
+          <td>Get all Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Browse Sales</td>
+          <td>Get all Sales row.</td>
+        </tr>
+        <tr>
+          <td>Read Sales</td>
+          <td>Read 1 (One) Sales row.</td>
+        </tr>
+        <tr>
+          <td>Delete Sales</td>
+          <td>Delete Sales row.</td>
+        </tr>
+        <tr>
+          <td>Update Sales</td>
+          <td>Update Sales row.</td>
+        </tr>
+        <tr>
+          <td>Add Sales</td>
+          <td>Insert Sales row.</td>
+        </tr>
+        <tr>
+          <td>Approve Sales</td>
+          <td>Make Sales Approvement. making sales can’t be deleted.</td>
+        </tr>
+        <tr>
+          <td>Sent Sales</td>
+          <td>Sent Sales Order to customer.</td>
+        </tr>
+        <tr>
+          <td>Sales Payment</td>
+          <td>pay sales invoice received.</td>
+        </tr>
+        <tr>
+          <td>Browse Suppliers</td>
+          <td>Get all Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Taxes</td>
+          <td>Get all Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Read Taxes</td>
+          <td>Read 1 (One) Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Delete Taxes</td>
+          <td>Delete Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Update Taxes</td>
+          <td>Update Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Add Taxes</td>
+          <td>Insert Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Browse Units</td>
+          <td>Get all Units row.</td>
+        </tr>
+        <tr>
+          <td>Read Units</td>
+          <td>Read 1 (One) Units row.</td>
+        </tr>
+        <tr>
+          <td>Delete Units</td>
+          <td>Delete Units row.</td>
+        </tr>
+        <tr>
+          <td>Update Units</td>
+          <td>Update Units row.</td>
+        </tr>
+        <tr>
+          <td>Add Units</td>
+          <td>Insert Units row.</td>
+        </tr>
+        <tr>
+          <td>Browse Unit Details</td>
+          <td>Get all Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Unit Details</td>
+          <td>Read 1 (One) Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Delete Unit Details</td>
+          <td>Delete Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Update Unit Details</td>
+          <td>Update Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Add Unit Details</td>
+          <td>Insert Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse Warehouses</td>
+          <td>Get all Warehouses row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Purchaser</strong></p>
+
+    <p>this role is almost the same as sales the difference this role manage purchase not sales.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Access Dashboard</td>
+          <td>Access the admins dashboard.</td>
+        </tr>
+        <tr>
+          <td>Browse Attachments</td>
+          <td>Get all Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Read Attachments</td>
+          <td>Read 1 (One) Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Delete Attachments</td>
+          <td>Delete Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Update Attachments</td>
+          <td>Update Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Add Attachments</td>
+          <td>Insert Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Browse Categories</td>
+          <td>Get all Categories row.</td>
+        </tr>
+        <tr>
+          <td>Read Categories</td>
+          <td>Read 1 (One) Categories row.</td>
+        </tr>
+        <tr>
+          <td>Delete Categories</td>
+          <td>Delete Categories row.</td>
+        </tr>
+        <tr>
+          <td>Update Categories</td>
+          <td>Update Categories row.</td>
+        </tr>
+        <tr>
+          <td>Add Categories</td>
+          <td>Insert Categories row.</td>
+        </tr>
+        <tr>
+          <td>Browse Customers</td>
+          <td>Get all Customers row.</td>
+        </tr>
+        <tr>
+          <td>Read Customers</td>
+          <td>Read 1 (One) Customers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Items</td>
+          <td>Get all Items row.</td>
+        </tr>
+        <tr>
+          <td>Read Items</td>
+          <td>Read 1 (One) Items row.</td>
+        </tr>
+        <tr>
+          <td>Delete Items</td>
+          <td>Delete Items row.</td>
+        </tr>
+        <tr>
+          <td>Update Items</td>
+          <td>Update Items row.</td>
+        </tr>
+        <tr>
+          <td>Add Items</td>
+          <td>Insert Items row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Pictures</td>
+          <td>Get all Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Pictures</td>
+          <td>Read 1 (One) Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Delete Item Pictures</td>
+          <td>Delete Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Add Item Pictures</td>
+          <td>Insert Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Details</td>
+          <td>Get all Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Details</td>
+          <td>Read 1 (One) Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse People</td>
+          <td>Get all People row.</td>
+        </tr>
+        <tr>
+          <td>Read People</td>
+          <td>Read 1 (One) People row.</td>
+        </tr>
+        <tr>
+          <td>Delete People</td>
+          <td>Delete People row.</td>
+        </tr>
+        <tr>
+          <td>Update People</td>
+          <td>Update People row.</td>
+        </tr>
+        <tr>
+          <td>Add People</td>
+          <td>Insert People row.</td>
+        </tr>
+        <tr>
+          <td>Browse Purchases</td>
+          <td>Get all Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Read Purchases</td>
+          <td>Read 1 (One) Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Delete Purchases</td>
+          <td>Delete Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Update Purchases</td>
+          <td>Update Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Add Purchases</td>
+          <td>Insert Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Approve Purchase</td>
+          <td>Approve Purchase. approved purchase cannot be deleted. purchase marked with warehouse.</td>
+        </tr>
+        <tr>
+          <td>Arrived Purchase</td>
+          <td>Mark Purchase as Arrived. making journal and inventory update.</td>
+        </tr>
+        <tr>
+          <td>Purchase Payment</td>
+          <td>Make Payment for Purchase invoice.</td>
+        </tr>
+        <tr>
+          <td>Browse Sales</td>
+          <td>Get all Sales row.</td>
+        </tr>
+        <tr>
+          <td>Read Sales</td>
+          <td>Read 1 (One) Sales row.</td>
+        </tr>
+        <tr>
+          <td>Browse Suppliers</td>
+          <td>Get all Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Read Suppliers</td>
+          <td>Read 1 (One) Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Delete Suppliers</td>
+          <td>Delete Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Update Suppliers</td>
+          <td>Update Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Add Suppliers</td>
+          <td>Insert Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Taxes</td>
+          <td>Get all Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Read Taxes</td>
+          <td>Read 1 (One) Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Browse Units</td>
+          <td>Get all Units row.</td>
+        </tr>
+        <tr>
+          <td>Read Units</td>
+          <td>Read 1 (One) Units row.</td>
+        </tr>
+        <tr>
+          <td>Delete Units</td>
+          <td>Delete Units row.</td>
+        </tr>
+        <tr>
+          <td>Update Units</td>
+          <td>Update Units row.</td>
+        </tr>
+        <tr>
+          <td>Add Units</td>
+          <td>Insert Units row.</td>
+        </tr>
+        <tr>
+          <td>Browse Unit Details</td>
+          <td>Get all Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Unit Details</td>
+          <td>Read 1 (One) Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Delete Unit Details</td>
+          <td>Delete Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Update Unit Details</td>
+          <td>Update Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Add Unit Details</td>
+          <td>Insert Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse Warehouses</td>
+          <td>Get all Warehouses row.</td>
+        </tr>
+        <tr>
+          <td>Read Warehouses</td>
+          <td>Read 1 (One) Warehouses row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Web Manager</strong></p>
+
+    <p>the purpose of this role is to manage website. for example managing post, editing page, live editor, theme builder etc. for more detail look at the table bellow show complete list of web manager permission.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Manage Menubar</td>
+          <td>Edit Category Menu</td>
+        </tr>
+        <tr>
+          <td>Manage Category Post</td>
+          <td>Edit Category Post</td>
+        </tr>
+        <tr>
+          <td>Browse Comments</td>
+          <td>Get all Comments row.</td>
+        </tr>
+        <tr>
+          <td>Read Comments</td>
+          <td>Read 1 (One) Comments row.</td>
+        </tr>
+        <tr>
+          <td>Delete Comments</td>
+          <td>Delete Comments row.</td>
+        </tr>
+        <tr>
+          <td>Update Comments</td>
+          <td>Update Comments row.</td>
+        </tr>
+        <tr>
+          <td>Add Comments</td>
+          <td>Insert Comments row.</td>
+        </tr>
+        <tr>
+          <td>Browse Pages</td>
+          <td>Get all Pages row.</td>
+        </tr>
+        <tr>
+          <td>Read Pages</td>
+          <td>Read 1 (One) Pages row.</td>
+        </tr>
+        <tr>
+          <td>Delete Pages</td>
+          <td>Delete Pages row.</td>
+        </tr>
+        <tr>
+          <td>Update Pages</td>
+          <td>Update Pages row.</td>
+        </tr>
+        <tr>
+          <td>Add Pages</td>
+          <td>Insert Pages row.</td>
+        </tr>
+        <tr>
+          <td>Browse Page Blocks</td>
+          <td>Get all Page Blocks row.</td>
+        </tr>
+        <tr>
+          <td>Read Page Blocks</td>
+          <td>Read 1 (One) Page Blocks row.</td>
+        </tr>
+        <tr>
+          <td>Delete Page Blocks</td>
+          <td>Delete Page Blocks row.</td>
+        </tr>
+        <tr>
+          <td>Update Page Blocks</td>
+          <td>Update Page Blocks row.</td>
+        </tr>
+        <tr>
+          <td>Add Page Blocks</td>
+          <td>Insert Page Blocks row.</td>
+        </tr>
+        <tr>
+          <td>Browse Page Block Templates</td>
+          <td>Get all Page Block Templates row.</td>
+        </tr>
+        <tr>
+          <td>Read Page Block Templates</td>
+          <td>Read 1 (One) Page Block Templates row.</td>
+        </tr>
+        <tr>
+          <td>Delete Page Block Templates</td>
+          <td>Delete Page Block Templates row.</td>
+        </tr>
+        <tr>
+          <td>Update Page Block Templates</td>
+          <td>Update Page Block Templates row.</td>
+        </tr>
+        <tr>
+          <td>Add Page Block Templates</td>
+          <td>Insert Page Block Templates row.</td>
+        </tr>
+        <tr>
+          <td>Browse Posts</td>
+          <td>Get all Posts row.</td>
+        </tr>
+        <tr>
+          <td>Read Posts</td>
+          <td>Read 1 (One) Posts row.</td>
+        </tr>
+        <tr>
+          <td>Delete Posts</td>
+          <td>Delete Posts row.</td>
+        </tr>
+        <tr>
+          <td>Update Posts</td>
+          <td>Update Posts row.</td>
+        </tr>
+        <tr>
+          <td>Add Posts</td>
+          <td>Insert Posts row.</td>
+        </tr>
+        <tr>
+          <td>Browse Reviews</td>
+          <td>Get all Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Read Reviews</td>
+          <td>Read 1 (One) Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Delete Reviews</td>
+          <td>Delete Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Update Reviews</td>
+          <td>Update Reviews row.</td>
+        </tr>
+        <tr>
+          <td>Add Reviews</td>
+          <td>Insert Reviews row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Accountant</strong></p>
+
+    <p>Accountant is a role that manage journal and balancing incorrect record. Bellow is complete list of accountant Permission. Accountant can also view financial report at the current moment.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Access Dashboard</td>
+          <td>Access the admins dashboard.</td>
+        </tr>
+        <tr>
+          <td>Browse Users</td>
+          <td>Get all Users row.</td>
+        </tr>
+        <tr>
+          <td>Browse Categories</td>
+          <td>Get all Categories row.</td>
+        </tr>
+        <tr>
+          <td>Read Categories</td>
+          <td>Read 1 (One) Categories row.</td>
+        </tr>
+        <tr>
+          <td>Browse Chart Of Accounts</td>
+          <td>Get all Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Read Chart Of Accounts</td>
+          <td>Read 1 (One) Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Delete Chart Of Accounts</td>
+          <td>Delete Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Update Chart Of Accounts</td>
+          <td>Update Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Add Chart Of Accounts</td>
+          <td>Insert Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Browse Customers</td>
+          <td>Get all Customers row.</td>
+        </tr>
+        <tr>
+          <td>Read Customers</td>
+          <td>Read 1 (One) Customers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Items</td>
+          <td>Get all Items row.</td>
+        </tr>
+        <tr>
+          <td>Read Items</td>
+          <td>Read 1 (One) Items row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Pictures</td>
+          <td>Get all Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Pictures</td>
+          <td>Read 1 (One) Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Details</td>
+          <td>Get all Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Details</td>
+          <td>Read 1 (One) Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Trial Balance</td>
+          <td>Take a look at trial balance.</td>
+        </tr>
+        <tr>
+          <td>Read Financial Statement</td>
+          <td>Read/Download financial statement such as Balance Sheet, Income Statement, and Cash flow statement</td>
+        </tr>
+        <tr>
+          <td>Add Custom Journal</td>
+          <td>add Custom Journal. specified for accounting purpose.</td>
+        </tr>
+        <tr>
+          <td>Browse People</td>
+          <td>Get all People row.</td>
+        </tr>
+        <tr>
+          <td>Read People</td>
+          <td>Read 1 (One) People row.</td>
+        </tr>
+        <tr>
+          <td>Browse Purchases</td>
+          <td>Get all Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Read Purchases</td>
+          <td>Read 1 (One) Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Browse Sales</td>
+          <td>Get all Sales row.</td>
+        </tr>
+        <tr>
+          <td>Read Sales</td>
+          <td>Read 1 (One) Sales row.</td>
+        </tr>
+        <tr>
+          <td>Browse Suppliers</td>
+          <td>Get all Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Read Suppliers</td>
+          <td>Read 1 (One) Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Taxes</td>
+          <td>Get all Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Read Taxes</td>
+          <td>Read 1 (One) Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Browse Templates</td>
+          <td>Get all Templates row.</td>
+        </tr>
+        <tr>
+          <td>Read Templates</td>
+          <td>Read 1 (One) Templates row.</td>
+        </tr>
+        <tr>
+          <td>Delete Templates</td>
+          <td>Delete Templates row.</td>
+        </tr>
+        <tr>
+          <td>Update Templates</td>
+          <td>Update Templates row.</td>
+        </tr>
+        <tr>
+          <td>Add Templates</td>
+          <td>Insert Templates row.</td>
+        </tr>
+        <tr>
+          <td>Browse Units</td>
+          <td>Get all Units row.</td>
+        </tr>
+        <tr>
+          <td>Read Units</td>
+          <td>Read 1 (One) Units row.</td>
+        </tr>
+        <tr>
+          <td>Browse Unit Details</td>
+          <td>Get all Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Unit Details</td>
+          <td>Read 1 (One) Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse Warehouses</td>
+          <td>Get all Warehouses row.</td>
+        </tr>
+        <tr>
+          <td>Read Warehouses</td>
+          <td>Read 1 (One) Warehouses row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p><strong>Manager</strong></p>
+
+    <p>Manager is a role like Administrator except it’s lacking critical and technical type permission. manager is like purchaser and sales combined added with permission to manage other user except adminstrator. bellow is complete list of manager role:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Permission name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Manage Roles</td>
+          <td>Create, Update, Delete, Get All, Attach/detach permissions to Roles and Get All Permissions.</td>
+        </tr>
+        <tr>
+          <td>Assign Role</td>
+          <td>Assign users to Roles.</td>
+        </tr>
+        <tr>
+          <td>Access Dashboard</td>
+          <td>Access the admins dashboard.</td>
+        </tr>
+        <tr>
+          <td>Browse Users</td>
+          <td>Get all Users row.</td>
+        </tr>
+        <tr>
+          <td>Read Users</td>
+          <td>Read 1 (One) Users row.</td>
+        </tr>
+        <tr>
+          <td>Delete Users</td>
+          <td>Delete Users row.</td>
+        </tr>
+        <tr>
+          <td>Update Users</td>
+          <td>Update Users row.</td>
+        </tr>
+        <tr>
+          <td>Add Users</td>
+          <td>Insert Users row.</td>
+        </tr>
+        <tr>
+          <td>Add Badge</td>
+          <td>Add Badge or Missions.</td>
+        </tr>
+        <tr>
+          <td>Delete Badge</td>
+          <td>delete Badge or Missions.</td>
+        </tr>
+        <tr>
+          <td>Grant Badge</td>
+          <td>grant Badge or Missions.</td>
+        </tr>
+        <tr>
+          <td>Browse Attachments</td>
+          <td>Get all Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Read Attachments</td>
+          <td>Read 1 (One) Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Delete Attachments</td>
+          <td>Delete Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Update Attachments</td>
+          <td>Update Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Add Attachments</td>
+          <td>Insert Attachments row.</td>
+        </tr>
+        <tr>
+          <td>Browse Categories</td>
+          <td>Get all Categories row.</td>
+        </tr>
+        <tr>
+          <td>Read Categories</td>
+          <td>Read 1 (One) Categories row.</td>
+        </tr>
+        <tr>
+          <td>Delete Categories</td>
+          <td>Delete Categories row.</td>
+        </tr>
+        <tr>
+          <td>Update Categories</td>
+          <td>Update Categories row.</td>
+        </tr>
+        <tr>
+          <td>Add Categories</td>
+          <td>Insert Categories row.</td>
+        </tr>
+        <tr>
+          <td>Browse Chart Of Accounts</td>
+          <td>Get all Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Read Chart Of Accounts</td>
+          <td>Read 1 (One) Chart Of Accounts row.</td>
+        </tr>
+        <tr>
+          <td>Browse Credentials</td>
+          <td>Get all Credentials row.</td>
+        </tr>
+        <tr>
+          <td>Read Credentials</td>
+          <td>Read 1 (One) Credentials row.</td>
+        </tr>
+        <tr>
+          <td>Delete Credentials</td>
+          <td>Delete Credentials row.</td>
+        </tr>
+        <tr>
+          <td>Update Credentials</td>
+          <td>Update Credentials row.</td>
+        </tr>
+        <tr>
+          <td>Add Credentials</td>
+          <td>Insert Credentials row.</td>
+        </tr>
+        <tr>
+          <td>Browse Customers</td>
+          <td>Get all Customers row.</td>
+        </tr>
+        <tr>
+          <td>Read Customers</td>
+          <td>Read 1 (One) Customers row.</td>
+        </tr>
+        <tr>
+          <td>Delete Customers</td>
+          <td>Delete Customers row.</td>
+        </tr>
+        <tr>
+          <td>Update Customers</td>
+          <td>Update Customers row.</td>
+        </tr>
+        <tr>
+          <td>Add Customers</td>
+          <td>Insert Customers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Items</td>
+          <td>Get all Items row.</td>
+        </tr>
+        <tr>
+          <td>Read Items</td>
+          <td>Read 1 (One) Items row.</td>
+        </tr>
+        <tr>
+          <td>Delete Items</td>
+          <td>Delete Items row.</td>
+        </tr>
+        <tr>
+          <td>Update Items</td>
+          <td>Update Items row.</td>
+        </tr>
+        <tr>
+          <td>Add Items</td>
+          <td>Insert Items row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Pictures</td>
+          <td>Get all Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Pictures</td>
+          <td>Read 1 (One) Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Delete Item Pictures</td>
+          <td>Delete Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Update Item Pictures</td>
+          <td>Update Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Add Item Pictures</td>
+          <td>Insert Item Pictures row.</td>
+        </tr>
+        <tr>
+          <td>Browse Item Details</td>
+          <td>Get all Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Item Details</td>
+          <td>Read 1 (One) Item Details row.</td>
+        </tr>
+        <tr>
+          <td>Trial Balance</td>
+          <td>Take a look at trial balance.</td>
+        </tr>
+        <tr>
+          <td>Read Financial Statement</td>
+          <td>Read/Download financial statement such as Balance Sheet, Income Statement, and Cash flow statement</td>
+        </tr>
+        <tr>
+          <td>Browse People</td>
+          <td>Get all People row.</td>
+        </tr>
+        <tr>
+          <td>Read People</td>
+          <td>Read 1 (One) People row.</td>
+        </tr>
+        <tr>
+          <td>Delete People</td>
+          <td>Delete People row.</td>
+        </tr>
+        <tr>
+          <td>Update People</td>
+          <td>Update People row.</td>
+        </tr>
+        <tr>
+          <td>Add People</td>
+          <td>Insert People row.</td>
+        </tr>
+        <tr>
+          <td>Browse Purchases</td>
+          <td>Get all Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Read Purchases</td>
+          <td>Read 1 (One) Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Delete Purchases</td>
+          <td>Delete Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Update Purchases</td>
+          <td>Update Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Add Purchases</td>
+          <td>Insert Purchases row.</td>
+        </tr>
+        <tr>
+          <td>Approve Purchase</td>
+          <td>Approve Purchase. approved purchase cannot be deleted. purchase marked with warehouse.</td>
+        </tr>
+        <tr>
+          <td>Arrived Purchase</td>
+          <td>Mark Purchase as Arrived. making journal and inventory update.</td>
+        </tr>
+        <tr>
+          <td>Purchase Payment</td>
+          <td>Make Payment for Purchase invoice.</td>
+        </tr>
+        <tr>
+          <td>Browse Sales</td>
+          <td>Get all Sales row.</td>
+        </tr>
+        <tr>
+          <td>Read Sales</td>
+          <td>Read 1 (One) Sales row.</td>
+        </tr>
+        <tr>
+          <td>Delete Sales</td>
+          <td>Delete Sales row.</td>
+        </tr>
+        <tr>
+          <td>Update Sales</td>
+          <td>Update Sales row.</td>
+        </tr>
+        <tr>
+          <td>Add Sales</td>
+          <td>Insert Sales row.</td>
+        </tr>
+        <tr>
+          <td>Approve Sales</td>
+          <td>Make Sales Approvement. making sales can’t be deleted.</td>
+        </tr>
+        <tr>
+          <td>Sent Sales</td>
+          <td>Sent Sales Order to customer.</td>
+        </tr>
+        <tr>
+          <td>Sales Payment</td>
+          <td>pay sales invoice received.</td>
+        </tr>
+        <tr>
+          <td>Browse Suppliers</td>
+          <td>Get all Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Read Suppliers</td>
+          <td>Read 1 (One) Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Delete Suppliers</td>
+          <td>Delete Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Update Suppliers</td>
+          <td>Update Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Add Suppliers</td>
+          <td>Insert Suppliers row.</td>
+        </tr>
+        <tr>
+          <td>Browse Taxes</td>
+          <td>Get all Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Read Taxes</td>
+          <td>Read 1 (One) Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Delete Taxes</td>
+          <td>Delete Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Update Taxes</td>
+          <td>Update Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Add Taxes</td>
+          <td>Insert Taxes row.</td>
+        </tr>
+        <tr>
+          <td>Browse Units</td>
+          <td>Get all Units row.</td>
+        </tr>
+        <tr>
+          <td>Read Units</td>
+          <td>Read 1 (One) Units row.</td>
+        </tr>
+        <tr>
+          <td>Delete Units</td>
+          <td>Delete Units row.</td>
+        </tr>
+        <tr>
+          <td>Update Units</td>
+          <td>Update Units row.</td>
+        </tr>
+        <tr>
+          <td>Add Units</td>
+          <td>Insert Units row.</td>
+        </tr>
+        <tr>
+          <td>Browse Unit Details</td>
+          <td>Get all Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Read Unit Details</td>
+          <td>Read 1 (One) Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Delete Unit Details</td>
+          <td>Delete Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Update Unit Details</td>
+          <td>Update Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Add Unit Details</td>
+          <td>Insert Unit Details row.</td>
+        </tr>
+        <tr>
+          <td>Browse Warehouses</td>
+          <td>Get all Warehouses row.</td>
+        </tr>
+        <tr>
+          <td>Read Warehouses</td>
+          <td>Read 1 (One) Warehouses row.</td>
+        </tr>
+        <tr>
+          <td>Update Warehouses</td>
+          <td>Update Warehouses row.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<blockquote>
+  <p>Note: You can create custom role but be cautious for giving permission to role.</p>
+</blockquote>
+</div>
+            <hr>
+            
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <ul class="pager">
+      
+        
+        
+        <li class="previous">
+          <a href="/fsretail-apiato/docs/manual-intro/">
+            <span aria-hidden="true">&larr;</span> Previous
+          </a>
+        </li>
+      
+
+      
+        
+        
+        <li class="next">
+          <a href="/fsretail-apiato/docs/accounting-intro/">
+            Next <span aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      
+    </div>
+    <div class="clear"></div>
+    
+
+        </div>
+
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+    <div class="container">
+
+        <p class="text-center">
+            Jekyll Doc Theme 2018 |
+            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
+        </p>
+        <!-- <p class="text-muted">Place sticky footer content here.</p> -->
+    </div>
+</footer>
+
+    <script>
+  var baseurl = '/fsretail-apiato'
+</script>
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/fsretail-apiato/js/bootstrap.min.js "></script>
+<script src="/fsretail-apiato/js/typeahead.bundle.min.js "></script>
+
+<script src="/fsretail-apiato/js/main.js "></script>
+
+</body>
+
+</html>
